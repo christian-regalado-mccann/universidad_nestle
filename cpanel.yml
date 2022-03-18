@@ -1,4 +1,4 @@
 ---
 deployment:
   tasks:
-    - export DEPLOYPATH=/home4/vendelin/public_html/demouniversidad
+    - export DEPLOYPATH=/home4/vendelin/public_html/demouniversidad/
