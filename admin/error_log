@@ -1,0 +1,24 @@
+[11-Mar-2022 14:26:01 America/Guayaquil] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'pn.usuario_id' in 'on clause' in /home4/vendelin/public_html/universidad/src/Admin.php:179
+Stack trace:
+#0 /home4/vendelin/public_html/universidad/src/Admin.php(179): PDOStatement->execute()
+#1 /home4/vendelin/public_html/universidad/admin/index.php(57): Admin::getPuntajes()
+#2 {main}
+  thrown in /home4/vendelin/public_html/universidad/src/Admin.php on line 179
+[11-Mar-2022 14:26:02 America/Guayaquil] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'pn.usuario_id' in 'on clause' in /home4/vendelin/public_html/universidad/src/Admin.php:179
+Stack trace:
+#0 /home4/vendelin/public_html/universidad/src/Admin.php(179): PDOStatement->execute()
+#1 /home4/vendelin/public_html/universidad/admin/index.php(57): Admin::getPuntajes()
+#2 {main}
+  thrown in /home4/vendelin/public_html/universidad/src/Admin.php on line 179
+[11-Mar-2022 14:26:07 America/Guayaquil] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'pn.usuario_id' in 'on clause' in /home4/vendelin/public_html/universidad/src/Admin.php:179
+Stack trace:
+#0 /home4/vendelin/public_html/universidad/src/Admin.php(179): PDOStatement->execute()
+#1 /home4/vendelin/public_html/universidad/admin/index.php(57): Admin::getPuntajes()
+#2 {main}
+  thrown in /home4/vendelin/public_html/universidad/src/Admin.php on line 179
+[14-Mar-2022 18:18:23 America/Boise] PHP Parse error:  syntax error, unexpected 'if' (T_IF) in /home4/vendelin/public_html/universidad/src/Admin.php on line 199
+[14-Mar-2022 20:31:42 America/Guayaquil] PHP Fatal error:  Uncaught Error: Call to undefined function secsToMins() in /home4/vendelin/public_html/universidad/src/Admin.php:197
+Stack trace:
+#0 /home4/vendelin/public_html/universidad/admin/index.php(57): Admin::getPuntajes()
+#1 {main}
+  thrown in /home4/vendelin/public_html/universidad/src/Admin.php on line 197
