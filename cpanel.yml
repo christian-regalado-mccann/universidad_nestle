@@ -1,5 +1,5 @@
 ---
 deployment:
   tasks:
-    - export DEPLOYPATH=/home4/vendelin/public_html/
+    - export DEPLOYPATH=/home4/vendelin/
     - /bin/cp -R /home4/vendelin/public_html/demouniversidad $DEPLOYPATH
