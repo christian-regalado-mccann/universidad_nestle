@@ -1,5 +1,3 @@
-var siteurl = "/universidad";
-
 (function(jQuery){
     $(document).ready(function(){
         // Crear Checkbox

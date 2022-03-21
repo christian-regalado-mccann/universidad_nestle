@@ -25,9 +25,9 @@ if(isset($_POST['username']) && isset($_POST['password'])){
     //var_dump($login);
     
     if($login == true){
-        header("Location: /universidad/admin/");
+        header("Location: " . formatBaseUrl(getenv("BASE_URL")) .  "//admin/");
     }else{
-        header("Location: /universidad/admin/?status=error");
+        header("Location: " . formatBaseUrl(getenv("BASE_URL")) . "/universidad/admin/?status=error");
     }
 }
 
@@ -110,7 +110,8 @@ if(!$admin->isLogged()){
     // echo "</pre>";    
     
     include('../src/pages/admin/layout/header.php');
-        include("../src/pages/admin/dashboard.php");
+    include('../src/pages/admin/layout/navbar.php');
+    include("../src/pages/admin/dashboard.php");
     include('../src/pages/admin/layout/footer.php');
     die();
     
