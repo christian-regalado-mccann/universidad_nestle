@@ -7,7 +7,7 @@
     <div class="ui centered grid h-30 pb-4">
         <div class="sixteen wide column px-6 pt-4 modulo-header">
             <h2>Usted ha salido del sistema exitosamente.</h2>
-            <h3><a class="color-white text-center font-size-18 mt-4" href="<?= $site['base_url'] ?>">Volver al login</a></h3>
+            <h3><a class="color-white text-center font-size-18 mt-4" href="<?= $site['base_url'] ?>/admin">Volver al login</a></h3>
         </div>
     </div>
 

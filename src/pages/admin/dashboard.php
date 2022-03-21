@@ -7,11 +7,11 @@
     </ul>
     <div class="close-nav"><i class="window close icon"></i></div>
 </div>-->
-<div class="main-content h-100" id="dashboard-page">
+<div class="main-content h-100 bg-grey-light" id="dashboard-page">
 
     <div class="ui centered grid padded h-45" id="header">
         <div class="sixteen wide column">
-            <div id="mobile-menu"><i class="fa-solid fa-bars color-white" style="color:#fff;"></i></div>
+            <!-- <div id="mobile-menu"><i class="fa-solid fa-bars color-white" style="color:#fff;"></i></div> -->
             <img class="ui fluid image universidad-logo" style="max-width:100px; margin:0px auto;" src="<?= $site['base_url'] ?>/assets/img/login/logouniversidad.png" alt="">
             <h1 class="color-white" style="text-align:center; color:#fff;">Dashboard</h1>
         </div>

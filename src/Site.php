@@ -1,11 +1,14 @@
 <?php
 
+include_once("utils/env_decoder.php");
+
 date_default_timezone_set('America/Guayaquil');
 
 $site = array();
 
 $site['version'] = '1.1.13';
-$site['base_url'] = '/universidad';
+// $site['base_url'] = getenv("BASE_URL");
+$site['base_url'] = formatBaseUrl(getenv("BASE_URL"));
 
 $user = [];
 

@@ -12,7 +12,7 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
     <script src="<?= $site['base_url'] ?>/assets/libs/semantic/semantic.min.js"></script>
 
-    <link rel="stylesheet/less" type="text/css" href="<?= $site['base_url'] ?>/assets/css/admin.less?ver=<?= $site['version'] ?>">
+    <link rel="stylesheet/less" type="text/css" href="<?= $site['base_url'] ?>/assets/css/admin.php?ver=<?= $site['version'] ?>">
     <script src="<?= $site['base_url'] ?>/assets/js/admin.js?ver=<?= $site['version'] ?>"></script>
 
     <script src="https://cdn.jsdelivr.net/npm/less@4.1.1" ></script>

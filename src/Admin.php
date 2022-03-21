@@ -1,4 +1,6 @@
 <?php
+
+include_once("utils/env_decoder.php");
 /*
 *
 * Class App
@@ -23,8 +25,8 @@ class Admin{
     *
     */
     public static function login($username, $password){
-        if($username == 'unvadmin' && $password == '3eAQW$adWT$'){
-            $_SESSION['admin']['user'] = "unvadmin";
+        if($username == getenv("ADMIN_USER") && $password == getenv("ADMIN_PASS")){
+            $_SESSION['admin']['user'] = getenv("ADMIN_USER");
             return true;
         }else{
             return false;
