@@ -13,7 +13,7 @@
         <div class="sixteen wide column">
             <!-- <div id="mobile-menu"><i class="fa-solid fa-bars color-white" style="color:#fff;"></i></div> -->
             <img class="ui fluid image universidad-logo" style="max-width:100px; margin:0px auto;" src="<?= $site['base_url'] ?>/assets/img/login/logouniversidad.png" alt="">
-            <h1 class="color-white" style="text-align:center; color:#fff;">Dashboard</h1>
+            <h1 class="color-white text-bold" style="text-align:center; color:#fff;">Dashboard</h1>
         </div>
     </div>
     <div class="ui centered grid padded h-45" style="margin-top:40px !important;">
@@ -21,15 +21,15 @@
             <div class="ui three column stackable grid centered">
                 <div class="column">
                     <div class="stats">
-                    <h2><i class="fa-solid fa-users color-white"></i> Resultados Globales</h2>
+                    <h2 class="text-bold"><i class="fa-solid fa-users color-white"></i> Resultados Globales</h2>
                         <div class="ui two column stackable grid centered wrapper-stats" >
                             <div class="column">
-                                <h4>Participaciones Totales</h4>
+                                <h4 class="text-bold">Participaciones Totales</h4>
                                 <div class="stat"><?= (isset($stat['general']['participaciones']) ? $stat['general']['participaciones'] : "####" ) ?></div>
                             </div>    
                             
                             <div class="column">
-                                <h4>Participantes Totales</h4>
+                                <h4 class="text-bold">Participantes Totales</h4>
                                 <div class="stat"><?= (isset($stat['general']['participantes']) ? $stat['general']['participantes'] : "####" ) ?></div>
                             </div>  
                         </div>
@@ -37,28 +37,28 @@
                 </div>
                 <div class="column">
                     <div class="stats">
-                        <h2><i class="fa-solid fa-users color-white"></i><span class="text-secondary"> Modulo 1 (Normal)</span></h2>
+                        <h2 class="text-bold"><i class="fa-solid fa-users color-white"></i><span class="text-mustard"> Modulo 1 (Normal)</span></h2>
                         <div class="ui two column stackable grid centered wrapper-stats" >
                             <div class="column">
-                                <h4>Participaciones</h4>
+                                <h4 class="text-bold">Participaciones</h4>
                                 <div class="stat"><?= (isset($stat['modulo'][1]['normal']['participaciones']) ? $stat['modulo'][1]['normal']['participaciones'] : "####" ) ?></div>
                             </div>
                             <div class="column">
-                                <h4>Participantes</h4>
+                                <h4 class="text-bold">Participantes</h4>
                                 <div class="stat"><?= (isset($stat['modulo'][1]['normal']['participantes']) ? $stat['modulo'][1]['normal']['participantes'] : "####" ) ?></div>
                             </div>
                         </div>
                         <div class="ui three column stackable grid centered wrapper-stats" >
                             <div class="column">
-                                <h4>Puntajes 100</h4>
+                                <h4 class="text-bold">Puntajes 100</h4>
                                 <div class="stat"><?= (isset($stat['modulo'][1]['normal']['puntaje']['100']) ? $stat['modulo'][1]['normal']['puntaje']['100'] : "####" ) ?></div>
                             </div>
                             <div class="column">
-                                <h4>Puntajes 80</h4>
+                                <h4 class="text-bold">Puntajes 80</h4>
                                 <div class="stat"><?= (isset($stat['modulo'][1]['normal']['puntaje']['80']) ? $stat['modulo'][1]['normal']['puntaje']['80'] : "####" ) ?></div>
                             </div>
                             <div class="column">
-                                <h4>Puntajes 60</h4>
+                                <h4 class="text-bold">Puntajes 60</h4>
                                 <div class="stat"><?= (isset($stat['modulo'][1]['normal']['puntaje']['60']) ? $stat['modulo'][1]['normal']['puntaje']['60'] : "####" ) ?></div>
                             </div>
                         </div>
@@ -66,28 +66,28 @@
                 </div>
                 <div class="column">
                     <div class="stats">
-                        <h2><i class="fa-solid fa-users color-white"></i><span class="text-secondary"> Modulo 1 (Extra)</span></h2>
+                        <h2 class="text-bold"><i class="fa-solid fa-users color-white"></i><span class="text-mustard"> Modulo 1 (Extra)</span></h2>
                         <div class="ui two column stackable grid centered wrapper-stats" >
                             <div class="column">
-                                <h4>Participaciones</h4>
+                                <h4 class="text-bold">Participaciones</h4>
                                 <div class="stat"><?= (isset($stat['modulo'][1]['extra']['participaciones']) ? $stat['modulo'][1]['extra']['participaciones'] : "####" ) ?></div>
                             </div>
                             <div class="column">
-                                <h4>Participantes</h4>
+                                <h4 class="text-bold">Participantes</h4>
                                 <div class="stat"><?= (isset($stat['modulo'][1]['extra']['participantes']) ? $stat['modulo'][1]['extra']['participantes'] : "####" ) ?></div>
                             </div>
                         </div>
                         <div class="ui three column stackable grid centered wrapper-stats" >
                             <div class="column">
-                                <h4>Puntajes 100</h4>
+                                <h4 class="text-bold">Puntajes 100</h4>
                                 <div class="stat"><?= (isset($stat['modulo'][1]['extra']['puntaje']['100']) ? $stat['modulo'][1]['extra']['puntaje']['100'] : "####" ) ?></div>
                             </div>
                             <div class="column">
-                                <h4>Puntajes 80</h4>
+                                <h4 class="text-bold">Puntajes 80</h4>
                                 <div class="stat"><?= (isset($stat['modulo'][1]['extra']['puntaje']['80']) ? $stat['modulo'][1]['extra']['puntaje']['80'] : "####" ) ?></div>
                             </div>
                             <div class="column">
-                                <h4>Puntajes 60</h4>
+                                <h4 class="text-bold">Puntajes 60</h4>
                                 <div class="stat"><?= (isset($stat['modulo'][1]['extra']['puntaje']['60']) ? $stat['modulo'][1]['extra']['puntaje']['60'] : "####" ) ?></div>
                             </div>
                         </div>
@@ -105,7 +105,7 @@
         <?php if($v['puntajes'] !== NULL){ ?>
         <?php $puntajes = $v['puntajes']; ?>
             <div class="twelve wide column stats">
-                <h2><span class="text-secondary"> <?= $v['nombre'] ?></span><br/><i class="fa-solid fa-trophy color-white"></i> TOP 10 </h2>
+                <h2 class="text-bold"><span class="text-mustard"> <?= $v['nombre'] ?></span><br/><i class="fa-solid fa-trophy color-white"></i> TOP 10 </h2>
                 <div class="ui centered grid">
                     <div class="fourteen wide pb-6 column">
                         <div class="ui tree column stackable grid centered">
@@ -190,8 +190,8 @@
             </div>
         <?php } ?>
         <div class="twelve wide column stats" id="calificaciones">
-            <h2><i class="fa-solid fa-star color-white"></i> Calificaciones de Módulos</h2>
-            <h4>Módulo 1</h4>
+            <h2 class="text-bold"><i class="fa-solid fa-star color-white"></i> Calificaciones de Módulos</h2>
+            <h4 class="text-bold">Módulo 1</h4>
             <div class="stat rating">
                 <div class="ui centered grid header">
                     <div class="twelve wide column stats">Pregunta</div>
@@ -220,7 +220,7 @@
     <hr>
     <!--<div class="ui centered grid padded h-45" style="margin-top:40px !important;">-->
     <!--    <div class="twelve wide column stats">-->
-    <!--        <h2>Búsqueda por cédula</h2>-->
+    <!--        <h2 class="text-bold">Búsqueda por cédula</h2>-->
     <!--        <div class="stat">-->
     <!--        <div class="field">-->
     <!--            <input class="brd-w2 brd-color-yellow" type="text" name="username" placeholder="username" autocomplete="off">-->

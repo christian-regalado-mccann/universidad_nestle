@@ -25,7 +25,7 @@ if(isset($_POST['username']) && isset($_POST['password'])){
     //var_dump($login);
     
     if($login == true){
-        header("Location: " . formatBaseUrl(getenv("BASE_URL")) .  "//admin/");
+        header("Location: " . formatBaseUrl(getenv("BASE_URL")) .  "/admin/");
     }else{
         header("Location: " . formatBaseUrl(getenv("BASE_URL")) . "/universidad/admin/?status=error");
     }

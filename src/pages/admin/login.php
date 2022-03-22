@@ -33,12 +33,6 @@
                     <i class="eye icon" id="revealer"></i>
                 </div>
             </div>
-            <!--<div class="field ui center aligned container">-->
-            <!--<div class="ui checkbox">-->
-            <!--    <input type="checkbox" tabindex="0" class="hidden">-->
-            <!--    <label class="text-light">Recordarme</label>-->
-            <!--    </div>-->
-            <!--</div>-->
             <div class="ui center aligned container">
                 <button class="mini ui button btn btn-bordered btn-white brd-w2 brd-color-yellow font-size-16" type="submit" id="btn-login">Ingresar</button>
             </div>
